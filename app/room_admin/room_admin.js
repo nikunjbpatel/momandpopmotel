@@ -19,9 +19,9 @@ angular.module('myApp.roomAdmin', ['ngRoute','ui.materialize'])
         $scope.update_data= {};
 
         $scope.init = function(){
-            $http.get('/adminapi/room_type').success(function(data){
-                $scope.room_types=data;
-            });
+        //    $http.get('/adminapi/room_type').success(function(data){
+         //       $scope.room_types=data;
+         //   });
         }
 
         $scope.init();
